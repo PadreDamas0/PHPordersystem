@@ -1,13 +1,13 @@
 <?php
 if ($_SERVER['REQUEST_METHOD'] == 'POST') {
-    // Menu prices
+
     $menu = [
         'Sisig' => 100,
         'Pakbet' => 60,
         'Adobo' => 80
     ];
 
-    // Get selected order, quantity, and cash
+
     $order = $_POST['order'];
     $quantity = $_POST['quantity'];
     $cash = $_POST['cash'];
